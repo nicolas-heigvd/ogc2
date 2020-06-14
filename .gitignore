@@ -1,0 +1,4 @@
+server/*
+*_demo_projects/*
+docker-compose-dev.yml
+*_projects/*.qgs~

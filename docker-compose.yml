@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+
+  qgisserver:
+      image: "camptocamp/qgis-server:3.10"
+      volumes:
+          - ./qgis_projects:/etc/qgisserver
+      ports:
+          - "8380:80"
+      environment:
+          - QGIS_PROJECT_FILE=/etc/qgisserver/project.qgs
+
