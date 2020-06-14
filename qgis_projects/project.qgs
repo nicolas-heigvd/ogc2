@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="nicolas" version="3.12.3-București" projectname="" saveUser="nicolas">
+<qgis projectname="" version="3.12.3-București" saveUser="nicolas" saveUserFull="nicolas">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -20,35 +20,37 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-group checked="Qt::Checked" expanded="1" name="imagery">
+    <layer-tree-group checked="Qt::Checked" name="imagery" expanded="1">
       <customproperties/>
-      <layer-tree-layer legend_exp="" checked="Qt::Checked" source="../data/101114_Cessnov_10cm.tif" providerKey="gdal" id="101114_Cessnov_10cm_bda4c4c5_0dac_4566_bb10_c46ffcb88511" expanded="1" name="101114_Cessnov_10cm">
+      <layer-tree-layer id="101114_Cessnov_10cm_cdcfc05b_590d_45c1_80a1_66c3716281a5" checked="Qt::Checked" providerKey="gdal" legend_exp="" name="101114_Cessnov_10cm" expanded="1" source="../data/101114_Cessnov_10cm.tif">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer legend_exp="" checked="Qt::Checked" source="../data/101118_Nonfoux_20cm.tif" providerKey="gdal" id="101118_Nonfoux_20cm_5f6b63d1_50e0_422c_ad92_098f2255b8dc" expanded="1" name="101118_Nonfoux_20cm">
+      <layer-tree-layer id="101118_Nonfoux_20cm_d512f276_04de_4af6_b190_b4df2974b77d" checked="Qt::Checked" providerKey="gdal" legend_exp="" name="101118_Nonfoux_20cm" expanded="1" source="../data/101118_Nonfoux_20cm.tif">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer legend_exp="" checked="Qt::Checked" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" providerKey="wms" id="OSM_Standard_0747c2a9_0265_486b_a445_73c5c833321e" expanded="1" name="OSM Standard">
-      <customproperties/>
+    <layer-tree-layer id="OSM_Standard_0747c2a9_0265_486b_a445_73c5c833321e" checked="Qt::Checked" providerKey="wms" legend_exp="" name="OSM Standard" expanded="0" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
     <custom-order enabled="0">
-      <item>101118_Nonfoux_20cm_5f6b63d1_50e0_422c_ad92_098f2255b8dc</item>
-      <item>101114_Cessnov_10cm_bda4c4c5_0dac_4566_bb10_c46ffcb88511</item>
       <item>OSM_Standard_0747c2a9_0265_486b_a445_73c5c833321e</item>
+      <item>101118_Nonfoux_20cm_d512f276_04de_4af6_b190_b4df2974b77d</item>
+      <item>101114_Cessnov_10cm_cdcfc05b_590d_45c1_80a1_66c3716281a5</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings tolerance="0" mode="1" type="1" unit="2" enabled="0" intersection-snapping="0">
+  <snapping-settings mode="1" type="1" unit="2" tolerance="0" intersection-snapping="0" enabled="0">
     <individual-layer-settings/>
   </snapping-settings>
   <relations/>
-  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>726370.90270552900619805</xmin>
-      <ymin>5882492.42647124547511339</ymin>
-      <xmax>756214.17292501195333898</xmax>
-      <ymax>5923792.05541245359927416</ymax>
+      <xmin>741798.23124174983240664</xmin>
+      <ymin>5905860.04325992520898581</ymin>
+      <xmax>742332.92099209385924041</xmax>
+      <ymax>5906380.38624110911041498</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -69,35 +71,35 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendgroup checked="Qt::Checked" open="true" name="imagery">
-      <legendlayer checked="Qt::Checked" open="true" drawingOrder="-1" name="101114_Cessnov_10cm" showFeatureCount="0">
-        <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="101114_Cessnov_10cm_bda4c4c5_0dac_4566_bb10_c46ffcb88511" visible="1"/>
+    <legendgroup open="true" checked="Qt::Checked" name="imagery">
+      <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="101114_Cessnov_10cm" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="1" layerid="101114_Cessnov_10cm_cdcfc05b_590d_45c1_80a1_66c3716281a5" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer checked="Qt::Checked" open="true" drawingOrder="-1" name="101118_Nonfoux_20cm" showFeatureCount="0">
-        <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="101118_Nonfoux_20cm_5f6b63d1_50e0_422c_ad92_098f2255b8dc" visible="1"/>
+      <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="101118_Nonfoux_20cm" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="1" layerid="101118_Nonfoux_20cm_d512f276_04de_4af6_b190_b4df2974b77d" isInOverview="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer checked="Qt::Checked" open="true" drawingOrder="-1" name="OSM Standard" showFeatureCount="0">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="OSM_Standard_0747c2a9_0265_486b_a445_73c5c833321e" visible="1"/>
+    <legendlayer open="false" checked="Qt::Checked" drawingOrder="-1" name="OSM Standard" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile visible="1" layerid="OSM_Standard_0747c2a9_0265_486b_a445_73c5c833321e" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" autoRefreshEnabled="0" type="raster" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories">
+    <maplayer autoRefreshTime="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" type="raster" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyMessage="" minScale="1e+8">
       <extent>
         <xmin>540828.84049500001128763</xmin>
         <ymin>181023.85780926694860682</ymin>
         <xmax>541174.89825775357894599</xmax>
         <ymax>181359.36608499998692423</ymax>
       </extent>
-      <id>101114_Cessnov_10cm_bda4c4c5_0dac_4566_bb10_c46ffcb88511</id>
+      <id>101114_Cessnov_10cm_cdcfc05b_590d_45c1_80a1_66c3716281a5</id>
       <datasource>../data/101114_Cessnov_10cm.tif</datasource>
       <keywordList>
         <value></value>
@@ -149,7 +151,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial crs="" minz="0" maxx="0" maxz="0" minx="0" maxy="0" miny="0" dimensions="2"/>
+          <spatial maxx="0" crs="" minx="0" dimensions="2" maxy="0" miny="0" maxz="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -160,10 +162,10 @@
       </resourceMetadata>
       <provider>gdal</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
-        <noDataList useSrcNoData="0" bandNo="2"/>
-        <noDataList useSrcNoData="0" bandNo="3"/>
-        <noDataList useSrcNoData="0" bandNo="4"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -174,16 +176,16 @@
         <Searchable>0</Searchable>
       </flags>
       <customproperties>
-        <property key="WMSBackgroundLayer" value="false"/>
-        <property key="WMSPublishDataSourceUrl" value="false"/>
-        <property key="embeddedWidgets/count" value="0"/>
-        <property key="identify/format" value="Value"/>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer redBand="1" blueBand="3" nodataColor="" opacity="1" type="multibandcolor" greenBand="2" alphaBand="4">
+        <rasterrenderer greenBand="2" type="multibandcolor" opacity="1" nodataColor="" alphaBand="4" redBand="1" blueBand="3">
           <rasterTransparency/>
           <minMaxOrigin>
-            <limits>MinMax</limits>
+            <limits>None</limits>
             <extent>WholeRaster</extent>
             <statAccuracy>Estimated</statAccuracy>
             <cumulativeCutLower>0.02</cumulativeCutLower>
@@ -192,19 +194,19 @@
           </minMaxOrigin>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation saturation="0" colorizeRed="255" colorizeBlue="128" colorizeStrength="100" colorizeGreen="128" grayscaleMode="0" colorizeOn="0"/>
+        <huesaturation colorizeOn="0" grayscaleMode="0" colorizeBlue="128" colorizeGreen="128" colorizeRed="255" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" autoRefreshEnabled="0" type="raster" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories">
+    <maplayer autoRefreshTime="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" type="raster" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyMessage="" minScale="1e+8">
       <extent>
         <xmin>539797.08934698509983718</xmin>
         <ymin>173999.42602538503706455</ymin>
         <xmax>540289.6893458702834323</xmax>
         <ymax>174604.82602401499752887</ymax>
       </extent>
-      <id>101118_Nonfoux_20cm_5f6b63d1_50e0_422c_ad92_098f2255b8dc</id>
+      <id>101118_Nonfoux_20cm_d512f276_04de_4af6_b190_b4df2974b77d</id>
       <datasource>../data/101118_Nonfoux_20cm.tif</datasource>
       <keywordList>
         <value></value>
@@ -256,7 +258,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial crs="" minz="0" maxx="0" maxz="0" minx="0" maxy="0" miny="0" dimensions="2"/>
+          <spatial maxx="0" crs="" minx="0" dimensions="2" maxy="0" miny="0" maxz="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -267,9 +269,9 @@
       </resourceMetadata>
       <provider>gdal</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
-        <noDataList useSrcNoData="0" bandNo="2"/>
-        <noDataList useSrcNoData="0" bandNo="3"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -280,13 +282,13 @@
         <Searchable>0</Searchable>
       </flags>
       <customproperties>
-        <property key="WMSBackgroundLayer" value="false"/>
-        <property key="WMSPublishDataSourceUrl" value="false"/>
-        <property key="embeddedWidgets/count" value="0"/>
-        <property key="identify/format" value="Value"/>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Value" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer redBand="1" blueBand="3" nodataColor="" opacity="1" type="multibandcolor" greenBand="2" alphaBand="-1">
+        <rasterrenderer greenBand="2" type="multibandcolor" opacity="1" nodataColor="" alphaBand="-1" redBand="1" blueBand="3">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>MinMax</limits>
@@ -298,12 +300,12 @@
           </minMaxOrigin>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation saturation="0" colorizeRed="255" colorizeBlue="128" colorizeStrength="100" colorizeGreen="128" grayscaleMode="0" colorizeOn="0"/>
+        <huesaturation colorizeOn="0" grayscaleMode="0" colorizeBlue="128" colorizeGreen="128" colorizeRed="255" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" autoRefreshEnabled="0" type="raster" refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories">
+    <maplayer autoRefreshTime="0" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" type="raster" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyMessage="" minScale="1e+8">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278925508260727</ymin>
@@ -350,14 +352,14 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -368,10 +370,10 @@
         <Searchable>0</Searchable>
       </flags>
       <customproperties>
-        <property key="identify/format" value="Undefined"/>
+        <property value="Undefined" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer nodataColor="" opacity="1" type="singlebandcolordata" alphaBand="-1" band="1">
+        <rasterrenderer type="singlebandcolordata" band="1" opacity="1" nodataColor="" alphaBand="-1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -383,16 +385,16 @@
           </minMaxOrigin>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation saturation="0" colorizeRed="255" colorizeBlue="128" colorizeStrength="100" colorizeGreen="128" grayscaleMode="0" colorizeOn="0"/>
+        <huesaturation colorizeOn="0" grayscaleMode="0" colorizeBlue="128" colorizeGreen="128" colorizeRed="255" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
   </projectlayers>
   <layerorder>
-    <layer id="101118_Nonfoux_20cm_5f6b63d1_50e0_422c_ad92_098f2255b8dc"/>
-    <layer id="101114_Cessnov_10cm_bda4c4c5_0dac_4566_bb10_c46ffcb88511"/>
     <layer id="OSM_Standard_0747c2a9_0265_486b_a445_73c5c833321e"/>
+    <layer id="101118_Nonfoux_20cm_d512f276_04de_4af6_b190_b4df2974b77d"/>
+    <layer id="101114_Cessnov_10cm_cdcfc05b_590d_45c1_80a1_66c3716281a5"/>
   </layerorder>
   <properties>
     <DefaultStyles>
@@ -498,8 +500,8 @@
       <variableValues type="QStringList"/>
     </Variables>
     <WCSLayers type="QStringList">
-      <value>101114_Cessnov_10cm_bda4c4c5_0dac_4566_bb10_c46ffcb88511</value>
-      <value>101118_Nonfoux_20cm_5f6b63d1_50e0_422c_ad92_098f2255b8dc</value>
+      <value>101114_Cessnov_10cm_cdcfc05b_590d_45c1_80a1_66c3716281a5</value>
+      <value>101118_Nonfoux_20cm_d512f276_04de_4af6_b190_b4df2974b77d</value>
     </WCSLayers>
     <WCSUrl type="QString"></WCSUrl>
     <WFSLayers type="QStringList"/>
@@ -528,10 +530,10 @@
     </WMSCrsList>
     <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
     <WMSExtent type="QStringList">
-      <value>717064.33386134984903038</value>
-      <value>5882492.42647124547511339</value>
-      <value>765520.74176919111050665</value>
-      <value>5923792.05541245359927416</value>
+      <value>725549.31658398266881704</value>
+      <value>5893727.95483041182160378</value>
+      <value>754312.84431732539087534</value>
+      <value>5918243.2475175317376852</value>
     </WMSExtent>
     <WMSFees type="QString">conditions unknown</WMSFees>
     <WMSImageQuality type="int">90</WMSImageQuality>
@@ -564,36 +566,34 @@
       </Config>
     </WMTSGrids>
     <WMTSJpegLayers>
-      <Group type="QStringList"/>
-      <Layer type="QStringList">
-        <value>101114_Cessnov_10cm_bda4c4c5_0dac_4566_bb10_c46ffcb88511</value>
-        <value>101118_Nonfoux_20cm_5f6b63d1_50e0_422c_ad92_098f2255b8dc</value>
-      </Layer>
+      <Group type="QStringList">
+        <value>imagery</value>
+      </Group>
+      <Layer type="QStringList"/>
       <Project type="bool">false</Project>
     </WMTSJpegLayers>
     <WMTSLayers>
-      <Group type="QStringList"/>
-      <Layer type="QStringList">
-        <value>101114_Cessnov_10cm_bda4c4c5_0dac_4566_bb10_c46ffcb88511</value>
-        <value>101118_Nonfoux_20cm_5f6b63d1_50e0_422c_ad92_098f2255b8dc</value>
-      </Layer>
+      <Group type="QStringList">
+        <value>imagery</value>
+      </Group>
+      <Layer type="QStringList"/>
       <Project type="bool">false</Project>
     </WMTSLayers>
     <WMTSMinScale type="int">5000</WMTSMinScale>
     <WMTSPngLayers>
-      <Group type="QStringList"/>
-      <Layer type="QStringList">
-        <value>101114_Cessnov_10cm_bda4c4c5_0dac_4566_bb10_c46ffcb88511</value>
-        <value>101118_Nonfoux_20cm_5f6b63d1_50e0_422c_ad92_098f2255b8dc</value>
-      </Layer>
+      <Group type="QStringList">
+        <value>imagery</value>
+      </Group>
+      <Layer type="QStringList"/>
       <Project type="bool">false</Project>
     </WMTSPngLayers>
     <WMTSUrl type="QString"></WMTSUrl>
   </properties>
   <visibility-presets/>
   <transformContext>
-    <srcDest dest="EPSG:3857" sourceTransform="+towgs84=674.374,15.056,405.346" source="EPSG:21781" destTransform=""/>
-    <srcDest dest="EPSG:4326" sourceTransform="+towgs84=674.374,15.056,405.346" source="EPSG:21781" destTransform=""/>
+    <srcDest dest="EPSG:3857" destTransform="" sourceTransform="+towgs84=-87,-98,-121" source="EPSG:102031"/>
+    <srcDest dest="EPSG:3857" destTransform="" sourceTransform="+towgs84=674.374,15.056,405.346" source="EPSG:21781"/>
+    <srcDest dest="EPSG:4326" destTransform="" sourceTransform="+towgs84=674.374,15.056,405.346" source="EPSG:21781"/>
   </transformContext>
   <projectMetadata>
     <identifier></identifier>
@@ -617,63 +617,63 @@
   </projectMetadata>
   <Annotations/>
   <Layouts>
-    <Layout worldFileMap="" printResolution="300" units="mm" name="Population distribution">
-      <Snapper tolerance="5" snapToGrid="0" snapToItems="1" snapToGuides="1"/>
-      <Grid offsetX="0" resUnits="mm" resolution="10" offsetY="0" offsetUnits="mm"/>
+    <Layout name="Population distribution" printResolution="300" units="mm" worldFileMap="">
+      <Snapper tolerance="5" snapToItems="1" snapToGuides="1" snapToGrid="0"/>
+      <Grid resolution="10" resUnits="mm" offsetY="0" offsetUnits="mm" offsetX="0"/>
       <PageCollection>
-        <symbol clip_to_extent="1" alpha="1" force_rhr="0" type="fill" name="">
-          <layer locked="0" class="SimpleFill" enabled="1" pass="0">
-            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="color" v="255,255,255,255"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="no"/>
-            <prop k="outline_width" v="0.26"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
+        <symbol type="fill" alpha="1" name="" clip_to_extent="1" force_rhr="0">
+          <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0,0,0,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.26" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
             <data_defined_properties>
               <Option type="Map">
-                <Option type="QString" value="" name="name"/>
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
             </data_defined_properties>
           </layer>
         </symbol>
-        <LayoutItem referencePoint="0" uuid="{12041348-900f-4735-ba17-f9d0ba040dc6}" size="297,210,mm" templateUuid="{12041348-900f-4735-ba17-f9d0ba040dc6}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" zValue="0" type="65638" background="true" itemRotation="0" positionOnPage="0,0,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" position="0,0,mm" id="">
+        <LayoutItem visibility="1" groupUuid="" frameJoinStyle="miter" referencePoint="0" position="0,0,mm" positionOnPage="0,0,mm" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="" frame="false" background="true" itemRotation="0" size="297,210,mm" templateUuid="{12041348-900f-4735-ba17-f9d0ba040dc6}" blendMode="0" zValue="0" type="65638" uuid="{12041348-900f-4735-ba17-f9d0ba040dc6}">
           <FrameColor green="0" alpha="255" blue="0" red="0"/>
           <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
           <LayoutObject>
             <dataDefinedProperties>
               <Option type="Map">
-                <Option type="QString" value="" name="name"/>
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
             </dataDefinedProperties>
             <customproperties/>
           </LayoutObject>
-          <symbol clip_to_extent="1" alpha="1" force_rhr="0" type="fill" name="">
-            <layer locked="0" class="SimpleFill" enabled="1" pass="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="255,255,255,255"/>
-              <prop k="joinstyle" v="miter"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol type="fill" alpha="1" name="" clip_to_extent="1" force_rhr="0">
+            <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="miter" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" value="" name="name"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option type="QString" value="collection" name="type"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -681,225 +681,225 @@
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem referencePoint="0" pictureRotation="0" uuid="{d2d8cf6d-ba0a-4177-b303-a407a94f0281}" size="12.512,12.512,mm" templateUuid="{d2d8cf6d-ba0a-4177-b303-a407a94f0281}" positionLock="false" svgFillColor="255,255,255,255" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" svgBorderWidth="0.2" zValue="19" type="65640" file="/media/nicolas/Data/ogc_server/qgis_projects/Icons/menu_white.svg" svgBorderColor="0,0,0,255" background="false" itemRotation="0" positionOnPage="13.3331,13.3651,mm" pictureWidth="12.4357" frame="false" northMode="0" opacity="1" resizeMode="0" blendMode="0" excludeFromExports="0" mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" northOffset="0" position="13.3331,13.3651,mm" anchorPoint="0" id="Menu Icon" pictureHeight="12.512">
+      <LayoutItem visibility="1" groupUuid="" northOffset="0" frameJoinStyle="miter" referencePoint="0" resizeMode="0" position="13.3331,13.3651,mm" positionOnPage="13.3331,13.3651,mm" pictureHeight="12.512" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" pictureRotation="0" id="Menu Icon" frame="false" background="false" itemRotation="0" mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" northMode="0" file="/media/nicolas/Data/ogc_server/qgis_projects/Icons/menu_white.svg" anchorPoint="0" size="12.512,12.512,mm" templateUuid="{d2d8cf6d-ba0a-4177-b303-a407a94f0281}" blendMode="0" svgBorderWidth="0.2" zValue="19" pictureWidth="12.4357" svgFillColor="255,255,255,255" type="65640" uuid="{d2d8cf6d-ba0a-4177-b303-a407a94f0281}" svgBorderColor="0,0,0,255">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option type="Map" name="properties">
                 <Option type="Map" name="dataDefinedMapLabelMargin">
-                  <Option type="bool" value="false" name="active"/>
-                  <Option type="QString" value="" name="expression"/>
-                  <Option type="int" value="3" name="type"/>
+                  <Option type="bool" name="active" value="false"/>
+                  <Option type="QString" name="expression" value=""/>
+                  <Option type="int" name="type" value="3"/>
                 </Option>
               </Option>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem referencePoint="0" pictureRotation="0" uuid="{1ea283e5-803d-4254-add6-635bf3c56200}" size="17.9149,17.6306,mm" templateUuid="{1ea283e5-803d-4254-add6-635bf3c56200}" positionLock="false" svgFillColor="255,255,255,255" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" svgBorderWidth="0.2" zValue="18" type="65640" file="/media/nicolas/Data/ogc_server/qgis_projects/Icons/compass_white.svg" svgBorderColor="0,0,0,255" background="false" itemRotation="0" positionOnPage="255.359,29.0051,mm" pictureWidth="17.5231" frame="false" northMode="0" opacity="1" resizeMode="0" blendMode="0" excludeFromExports="0" mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" northOffset="0" position="255.359,29.0051,mm" anchorPoint="0" id="Compass Icon" pictureHeight="17.6306">
+      <LayoutItem visibility="1" groupUuid="" northOffset="0" frameJoinStyle="miter" referencePoint="0" resizeMode="0" position="255.359,29.0051,mm" positionOnPage="255.359,29.0051,mm" pictureHeight="17.6306" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" pictureRotation="0" id="Compass Icon" frame="false" background="false" itemRotation="0" mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" northMode="0" file="/media/nicolas/Data/ogc_server/qgis_projects/Icons/compass_white.svg" anchorPoint="0" size="17.9149,17.6306,mm" templateUuid="{1ea283e5-803d-4254-add6-635bf3c56200}" blendMode="0" svgBorderWidth="0.2" zValue="18" pictureWidth="17.5231" svgFillColor="255,255,255,255" type="65640" uuid="{1ea283e5-803d-4254-add6-635bf3c56200}" svgBorderColor="0,0,0,255">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option type="Map" name="properties">
                 <Option type="Map" name="dataDefinedMapLabelMargin">
-                  <Option type="bool" value="false" name="active"/>
-                  <Option type="QString" value="" name="expression"/>
-                  <Option type="int" value="3" name="type"/>
+                  <Option type="bool" name="active" value="false"/>
+                  <Option type="QString" name="expression" value=""/>
+                  <Option type="int" name="type" value="3"/>
                 </Option>
               </Option>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem referencePoint="0" uuid="{6af08117-8db8-421f-a8f1-bcca409aa3e3}" size="18.768,18.768,mm" cornerRadiusMeasure="0,mm" templateUuid="{6af08117-8db8-421f-a8f1-bcca409aa3e3}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" zValue="17" type="65643" background="false" itemRotation="0" positionOnPage="254.79,28.8155,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" shapeType="0" position="254.79,28.8155,mm" id="Green Elipse">
+      <LayoutItem visibility="1" groupUuid="" frameJoinStyle="miter" cornerRadiusMeasure="0,mm" referencePoint="0" position="254.79,28.8155,mm" positionOnPage="254.79,28.8155,mm" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="Green Elipse" frame="false" background="false" shapeType="0" itemRotation="0" size="18.768,18.768,mm" templateUuid="{6af08117-8db8-421f-a8f1-bcca409aa3e3}" blendMode="0" zValue="17" type="65643" uuid="{6af08117-8db8-421f-a8f1-bcca409aa3e3}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <symbol clip_to_extent="1" alpha="1" force_rhr="0" type="fill" name="">
-          <layer locked="0" class="SimpleFill" enabled="1" pass="0">
-            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="color" v="7,211,157,255"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,0"/>
-            <prop k="outline_style" v="no"/>
-            <prop k="outline_width" v="0.3"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
+        <symbol type="fill" alpha="1" name="" clip_to_extent="1" force_rhr="0">
+          <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="7,211,157,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0,0,0,0" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.3" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
             <effect type="effectStack" enabled="1">
               <effect type="dropShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.645"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="3"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="0.5"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.645" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="3" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="0.5" k="opacity"/>
               </effect>
               <effect type="outerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
               <effect type="drawSource">
-                <prop k="blend_mode" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="opacity" v="1"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.645"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="1"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.645" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
             </effect>
             <data_defined_properties>
               <Option type="Map">
-                <Option type="QString" value="" name="name"/>
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
             </data_defined_properties>
           </layer>
         </symbol>
       </LayoutItem>
-      <LayoutItem labelMargin="0,mm" referencePoint="0" uuid="{18a68759-d406-448f-98e8-38f6568293b0}" size="201.045,129.038,mm" templateUuid="{18a68759-d406-448f-98e8-38f6568293b0}" positionLock="false" mapFlags="0" followPreset="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" followPresetName="" zValue="16" type="65639" background="true" itemRotation="0" positionOnPage="85.9395,37.8204,mm" drawCanvasItems="true" frame="false" keepLayerSet="false" opacity="1" blendMode="0" excludeFromExports="0" position="85.9395,37.8204,mm" id="" mapRotation="0">
+      <LayoutItem followPreset="false" visibility="1" groupUuid="" drawCanvasItems="true" frameJoinStyle="miter" referencePoint="0" position="85.9395,37.8204,mm" positionOnPage="85.9395,37.8204,mm" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="" frame="false" keepLayerSet="false" background="true" followPresetName="" itemRotation="0" size="201.045,129.038,mm" mapFlags="0" templateUuid="{18a68759-d406-448f-98e8-38f6568293b0}" blendMode="0" labelMargin="0,mm" zValue="16" mapRotation="0" type="65639" uuid="{18a68759-d406-448f-98e8-38f6568293b0}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="35" alpha="255" blue="35" red="35"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent ymax="278.62547210852460466" xmax="373.98023159793001469" xmin="-373.98023159793001469" ymin="-201.44278251042840111"/>
+        <Extent xmin="-373.98023159793001469" xmax="373.98023159793001469" ymax="278.62547210852460466" ymin="-201.44278251042840111"/>
         <LayerSet/>
-        <ComposerMapGrid show="0" gridStyle="0" leftAnnotationDisplay="0" topAnnotationDisplay="0" intervalY="0" intervalX="0" gridFrameMargin="0" blendMode="0" rightFrameDivisions="0" showAnnotation="0" uuid="{3ad33933-e625-4b5b-9659-8fef090ffb1b}" annotationExpression="" rightAnnotationPosition="1" maximumIntervalWidth="100" topFrameDivisions="0" position="3" frameAnnotationDistance="1" bottomAnnotationDirection="0" frameFillColor1="255,255,255,255" offsetY="0" bottomFrameDivisions="0" crossLength="3" annotationFormat="0" rightAnnotationDisplay="0" gridFrameStyle="0" annotationPrecision="3" bottomAnnotationDisplay="0" rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" topAnnotationDirection="0" gridFrameWidth="2" gridFrameSideFlags="15" unit="0" gridFramePenThickness="0.5" offsetX="0" leftAnnotationPosition="1" topAnnotationPosition="1" minimumIntervalWidth="50" annotationFontColor="0,0,0,255" frameFillColor2="0,0,0,255" leftFrameDivisions="0" name="Grid 1" leftAnnotationDirection="0" bottomAnnotationPosition="1">
+        <ComposerMapGrid bottomAnnotationPosition="1" gridFramePenColor="0,0,0,255" leftAnnotationDirection="0" leftFrameDivisions="0" uuid="{3ad33933-e625-4b5b-9659-8fef090ffb1b}" maximumIntervalWidth="100" annotationExpression="" rightAnnotationDisplay="0" bottomFrameDivisions="0" name="Grid 1" gridFramePenThickness="0.5" annotationFontColor="0,0,0,255" topAnnotationDisplay="0" annotationPrecision="3" gridFrameStyle="0" offsetY="0" bottomAnnotationDisplay="0" frameAnnotationDistance="1" intervalX="0" position="3" gridStyle="0" leftAnnotationDisplay="0" rightFrameDivisions="0" topAnnotationDirection="0" gridFrameWidth="2" unit="0" gridFrameSideFlags="15" annotationFormat="0" frameFillColor1="255,255,255,255" rightAnnotationDirection="0" blendMode="0" topAnnotationPosition="1" gridFrameMargin="0" offsetX="0" crossLength="3" intervalY="0" rightAnnotationPosition="1" show="0" frameFillColor2="0,0,0,255" showAnnotation="0" topFrameDivisions="0" minimumIntervalWidth="50" leftAnnotationPosition="1" bottomAnnotationDirection="0">
           <lineStyle>
-            <symbol clip_to_extent="1" alpha="1" force_rhr="0" type="line" name="">
-              <layer locked="0" class="SimpleLine" enabled="1" pass="0">
-                <prop k="capstyle" v="square"/>
-                <prop k="customdash" v="5;2"/>
-                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="customdash_unit" v="MM"/>
-                <prop k="draw_inside_polygon" v="0"/>
-                <prop k="joinstyle" v="bevel"/>
-                <prop k="line_color" v="0,0,0,255"/>
-                <prop k="line_style" v="solid"/>
-                <prop k="line_width" v="0"/>
-                <prop k="line_width_unit" v="MM"/>
-                <prop k="offset" v="0"/>
-                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="ring_filter" v="0"/>
-                <prop k="use_custom_dash" v="0"/>
-                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <symbol type="line" alpha="1" name="" clip_to_extent="1" force_rhr="0">
+              <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="0,0,0,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
                 <data_defined_properties>
                   <Option type="Map">
-                    <Option type="QString" value="" name="name"/>
+                    <Option type="QString" name="name" value=""/>
                     <Option name="properties"/>
-                    <Option type="QString" value="collection" name="type"/>
+                    <Option type="QString" name="type" value="collection"/>
                   </Option>
                 </data_defined_properties>
               </layer>
             </symbol>
           </lineStyle>
           <markerStyle>
-            <symbol clip_to_extent="1" alpha="1" force_rhr="0" type="marker" name="">
-              <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
-                <prop k="angle" v="0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="horizontal_anchor_point" v="1"/>
-                <prop k="joinstyle" v="bevel"/>
-                <prop k="name" v="circle"/>
-                <prop k="offset" v="0,0"/>
-                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="outline_color" v="0,0,0,255"/>
-                <prop k="outline_style" v="solid"/>
-                <prop k="outline_width" v="0"/>
-                <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="outline_width_unit" v="MM"/>
-                <prop k="scale_method" v="diameter"/>
-                <prop k="size" v="2"/>
-                <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="size_unit" v="MM"/>
-                <prop k="vertical_anchor_point" v="1"/>
+            <symbol type="marker" alpha="1" name="" clip_to_extent="1" force_rhr="0">
+              <layer locked="0" pass="0" enabled="1" class="SimpleMarker">
+                <prop v="0" k="angle"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="1" k="horizontal_anchor_point"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="circle" k="name"/>
+                <prop v="0,0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0,0,0,255" k="outline_color"/>
+                <prop v="solid" k="outline_style"/>
+                <prop v="0" k="outline_width"/>
+                <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                <prop v="MM" k="outline_width_unit"/>
+                <prop v="diameter" k="scale_method"/>
+                <prop v="2" k="size"/>
+                <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                <prop v="MM" k="size_unit"/>
+                <prop v="1" k="vertical_anchor_point"/>
                 <data_defined_properties>
                   <Option type="Map">
-                    <Option type="QString" value="" name="name"/>
+                    <Option type="QString" name="name" value=""/>
                     <Option name="properties"/>
-                    <Option type="QString" value="collection" name="type"/>
+                    <Option type="QString" name="type" value="collection"/>
                   </Option>
                 </data_defined_properties>
               </layer>
@@ -909,26 +909,26 @@
           <LayoutObject>
             <dataDefinedProperties>
               <Option type="Map">
-                <Option type="QString" value="" name="name"/>
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
             </dataDefinedProperties>
             <customproperties/>
           </LayoutObject>
         </ComposerMapGrid>
-        <AtlasMap margin="0.10000000000000001" atlasDriven="0" scalingMode="2"/>
+        <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
         <labelBlockingItems/>
       </LayoutItem>
-      <LayoutItem halign="2" referencePoint="0" uuid="{fb0fbc30-c5b0-4479-87b0-0b692188c371}" size="192.514,23.0335,mm" templateUuid="{fb0fbc30-c5b0-4479-87b0-0b692188c371}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" marginY="1" zValue="15" type="65641" marginX="1" background="false" itemRotation="0" positionOnPage="90.032,174.954,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" htmlState="0" labelText="Created on : [% month(  now()  )  ||  ' - ' ||  day(  now()  )  || ' - ' ||  year(  now() )%]&#xa;&#xa;&#xa;SOURCES - IGN - BD GEOFLA® 2015-1 &#xa;Designed by Mickael HOARAU" position="90.032,174.954,mm" valign="32" id="">
+      <LayoutItem halign="2" visibility="1" groupUuid="" marginX="1" htmlState="0" valign="32" frameJoinStyle="miter" referencePoint="0" position="90.032,174.954,mm" positionOnPage="90.032,174.954,mm" positionLock="false" labelText="Created on : [% month(  now()  )  ||  ' - ' ||  day(  now()  )  || ' - ' ||  year(  now() )%]&#xa;&#xa;&#xa;SOURCES - IGN - BD GEOFLA® 2015-1 &#xa;Designed by Mickael HOARAU" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="" frame="false" background="false" itemRotation="0" size="192.514,23.0335,mm" templateUuid="{fb0fbc30-c5b0-4479-87b0-0b692188c371}" blendMode="0" marginY="1" zValue="15" type="65641" uuid="{fb0fbc30-c5b0-4479-87b0-0b692188c371}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
@@ -936,15 +936,15 @@
         <LabelFont description="Roboto,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor green="97" alpha="255" blue="101" red="92"/>
       </LayoutItem>
-      <LayoutItem halign="1" referencePoint="0" uuid="{601feb7c-37a4-4d41-b91d-ffa62696e060}" size="53.7,20.1898,mm" templateUuid="{601feb7c-37a4-4d41-b91d-ffa62696e060}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" marginY="1" zValue="14" type="65641" marginX="1" background="false" itemRotation="0" positionOnPage="21.7952,25.8771,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" htmlState="1" labelText="&lt;p style=&quot;font-family : roboto; color : #07d39d; &quot;>DESCRIPTION&lt;/p>&#xa;&lt;p style=&quot;font-family:roboto; font-size: 12px;color : white;&quot;>Distribution of population example&lt;/p>" position="21.7952,25.8771,mm" valign="32" id="Html Description">
+      <LayoutItem halign="1" visibility="1" groupUuid="" marginX="1" htmlState="1" valign="32" frameJoinStyle="miter" referencePoint="0" position="21.7952,25.8771,mm" positionOnPage="21.7952,25.8771,mm" positionLock="false" labelText="&lt;p style=&quot;font-family : roboto; color : #07d39d; &quot;>DESCRIPTION&lt;/p>&#xa;&lt;p style=&quot;font-family:roboto; font-size: 12px;color : white;&quot;>Distribution of population example&lt;/p>" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="Html Description" frame="false" background="false" itemRotation="0" size="53.7,20.1898,mm" templateUuid="{601feb7c-37a4-4d41-b91d-ffa62696e060}" blendMode="0" marginY="1" zValue="14" type="65641" uuid="{601feb7c-37a4-4d41-b91d-ffa62696e060}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
@@ -952,53 +952,53 @@
         <LabelFont description="sans-serif,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor green="0" alpha="255" blue="0" red="0"/>
       </LayoutItem>
-      <LayoutItem id="Legend" title="Legend" excludeFromExports="0" groupUuid="" wmsLegendHeight="25" background="false" titleAlignment="4" zValue="13" splitLayer="0" blendMode="0" frame="false" uuid="{4c4373e1-53d9-445e-b835-ffdd2e436bcc}" positionLock="false" frameJoinStyle="miter" size="48.2734,91.2154,mm" rasterBorderWidth="0" position="24.5085,56.1242,mm" symbolWidth="7" boxSpace="2" equalColumnWidth="0" columnCount="1" positionOnPage="24.5085,56.1242,mm" itemRotation="0" visibility="1" columnSpace="2" legendFilterByAtlas="0" type="65642" symbolAlignment="1" lineSpacing="1" referencePoint="0" wrapChar="" map_uuid="{18a68759-d406-448f-98e8-38f6568293b0}" opacity="1" fontColor="#ffffff" rasterBorder="1" templateUuid="{4c4373e1-53d9-445e-b835-ffdd2e436bcc}" outlineWidthM="0.3,mm" rasterBorderColor="0,0,0,255" symbolHeight="4" resizeToContents="1" wmsLegendWidth="50">
+      <LayoutItem rasterBorder="1" frame="false" uuid="{4c4373e1-53d9-445e-b835-ffdd2e436bcc}" id="Legend" background="false" splitLayer="0" outlineWidthM="0.3,mm" excludeFromExports="0" symbolHeight="4" groupUuid="" position="24.5085,56.1242,mm" templateUuid="{4c4373e1-53d9-445e-b835-ffdd2e436bcc}" resizeToContents="1" boxSpace="2" itemRotation="0" frameJoinStyle="miter" visibility="1" fontColor="#ffffff" opacity="1" wmsLegendWidth="50" columnSpace="2" legendFilterByAtlas="0" blendMode="0" symbolAlignment="1" wmsLegendHeight="25" referencePoint="0" positionLock="false" lineSpacing="1" zValue="13" equalColumnWidth="0" columnCount="1" size="48.2734,91.2154,mm" positionOnPage="24.5085,56.1242,mm" map_uuid="{18a68759-d406-448f-98e8-38f6568293b0}" symbolWidth="7" wrapChar="" title="Legend" type="65642" rasterBorderWidth="0" titleAlignment="4" rasterBorderColor="0,0,0,255">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
         <styles>
-          <style marginBottom="2" alignment="1" name="title">
+          <style marginBottom="2" name="title" alignment="1">
             <styleFont description="sans-serif,16,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style alignment="1" name="group" marginTop="2">
+          <style marginTop="2" name="group" alignment="1">
             <styleFont description="sans-serif,14,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style alignment="1" name="subgroup" marginTop="2">
+          <style marginTop="2" name="subgroup" alignment="1">
             <styleFont description="sans-serif,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style alignment="1" name="symbol" marginTop="2">
+          <style marginTop="2" name="symbol" alignment="1">
             <styleFont description="sans-serif,10,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style alignment="1" marginLeft="2" name="symbolLabel" marginTop="2">
+          <style marginTop="2" name="symbolLabel" marginLeft="2" alignment="1">
             <styleFont description="Roboto,11,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
         <layer-tree-group>
           <customproperties/>
-          <layer-tree-layer legend_exp="" checked="Qt::Unchecked" id="places20160903164057641" expanded="1" name="places">
+          <layer-tree-layer id="places20160903164057641" checked="Qt::Unchecked" legend_exp="" name="places" expanded="1">
             <customproperties/>
           </layer-tree-layer>
           <custom-order enabled="0"/>
         </layer-tree-group>
       </LayoutItem>
-      <LayoutItem halign="1" referencePoint="0" uuid="{b6e74cd4-6cd8-49d8-99b1-b383fd9861a0}" size="201.045,29.6464,mm" templateUuid="{b6e74cd4-6cd8-49d8-99b1-b383fd9861a0}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" marginY="1" zValue="12" type="65641" marginX="1" background="true" itemRotation="0" positionOnPage="85.9395,8.17404,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" htmlState="1" labelText="&lt;body style=&quot;padding-left : 20px; padding-top : 10px;&quot;>&#xa;&lt;h1 style=&quot;font-family : roboto black; color : #07d39d;&quot;>MATERIAL DESIGN MAP&lt;/h1>&#xa;&lt;h3 style=&quot;font-family:roboto; font-weight:200;&quot;>POPULATION DISTRIBUTION&lt;/h3>&#xa;&lt;/body>" position="85.9395,8.17404,mm" valign="32" id="HTML Title">
+      <LayoutItem halign="1" visibility="1" groupUuid="" marginX="1" htmlState="1" valign="32" frameJoinStyle="miter" referencePoint="0" position="85.9395,8.17404,mm" positionOnPage="85.9395,8.17404,mm" positionLock="false" labelText="&lt;body style=&quot;padding-left : 20px; padding-top : 10px;&quot;>&#xa;&lt;h1 style=&quot;font-family : roboto black; color : #07d39d;&quot;>MATERIAL DESIGN MAP&lt;/h1>&#xa;&lt;h3 style=&quot;font-family:roboto; font-weight:200;&quot;>POPULATION DISTRIBUTION&lt;/h3>&#xa;&lt;/body>" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="HTML Title" frame="false" background="true" itemRotation="0" size="201.045,29.6464,mm" templateUuid="{b6e74cd4-6cd8-49d8-99b1-b383fd9861a0}" blendMode="0" marginY="1" zValue="12" type="65641" uuid="{b6e74cd4-6cd8-49d8-99b1-b383fd9861a0}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
@@ -1006,487 +1006,487 @@
         <LabelFont description="Roboto,20,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor green="41" alpha="255" blue="55" red="21"/>
       </LayoutItem>
-      <LayoutItem referencePoint="0" uuid="{aed0c739-d06d-4e4a-ae2d-fd7ee563cafc}" size="201.045,30.7113,mm" cornerRadiusMeasure="0,mm" templateUuid="{aed0c739-d06d-4e4a-ae2d-fd7ee563cafc}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" zValue="11" type="65643" background="false" itemRotation="0" positionOnPage="85.9395,171.115,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" shapeType="1" position="85.9395,171.115,mm" id="Details Box">
+      <LayoutItem visibility="1" groupUuid="" frameJoinStyle="miter" cornerRadiusMeasure="0,mm" referencePoint="0" position="85.9395,171.115,mm" positionOnPage="85.9395,171.115,mm" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="Details Box" frame="false" background="false" shapeType="1" itemRotation="0" size="201.045,30.7113,mm" templateUuid="{aed0c739-d06d-4e4a-ae2d-fd7ee563cafc}" blendMode="0" zValue="11" type="65643" uuid="{aed0c739-d06d-4e4a-ae2d-fd7ee563cafc}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <symbol clip_to_extent="1" alpha="1" force_rhr="0" type="fill" name="">
-          <layer locked="0" class="SimpleFill" enabled="1" pass="0">
-            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="color" v="255,255,255,255"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="no"/>
-            <prop k="outline_width" v="0.3"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
+        <symbol type="fill" alpha="1" name="" clip_to_extent="1" force_rhr="0">
+          <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0,0,0,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.3" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
             <effect type="effectStack" enabled="1">
               <effect type="dropShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.116"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="0.5"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.116" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="0.5" k="opacity"/>
               </effect>
               <effect type="outerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
               <effect type="drawSource">
-                <prop k="blend_mode" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="opacity" v="1"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.645"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="1"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.645" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
             </effect>
             <data_defined_properties>
               <Option type="Map">
-                <Option type="QString" value="" name="name"/>
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
             </data_defined_properties>
           </layer>
         </symbol>
       </LayoutItem>
-      <LayoutItem referencePoint="0" uuid="{7994c9a4-d405-4abc-8739-a7331e3f4a9c}" size="72.7972,193.652,mm" cornerRadiusMeasure="0,mm" templateUuid="{7994c9a4-d405-4abc-8739-a7331e3f4a9c}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" zValue="10" type="65643" background="false" itemRotation="0" positionOnPage="8.24656,8.17404,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" shapeType="1" position="8.24656,8.17404,mm" id="Side box">
+      <LayoutItem visibility="1" groupUuid="" frameJoinStyle="miter" cornerRadiusMeasure="0,mm" referencePoint="0" position="8.24656,8.17404,mm" positionOnPage="8.24656,8.17404,mm" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="Side box" frame="false" background="false" shapeType="1" itemRotation="0" size="72.7972,193.652,mm" templateUuid="{7994c9a4-d405-4abc-8739-a7331e3f4a9c}" blendMode="0" zValue="10" type="65643" uuid="{7994c9a4-d405-4abc-8739-a7331e3f4a9c}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <symbol clip_to_extent="1" alpha="1" force_rhr="0" type="fill" name="">
-          <layer locked="0" class="SimpleFill" enabled="1" pass="0">
-            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="color" v="35,35,35,255"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="no"/>
-            <prop k="outline_width" v="0.3"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
+        <symbol type="fill" alpha="1" name="" clip_to_extent="1" force_rhr="0">
+          <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="35,35,35,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0,0,0,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.3" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
             <effect type="effectStack" enabled="1">
               <effect type="dropShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.116"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="0.5"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.116" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="0.5" k="opacity"/>
               </effect>
               <effect type="outerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
               <effect type="drawSource">
-                <prop k="blend_mode" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="opacity" v="1"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.645"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="1"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.645" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
             </effect>
             <data_defined_properties>
               <Option type="Map">
-                <Option type="QString" value="" name="name"/>
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
             </data_defined_properties>
           </layer>
         </symbol>
       </LayoutItem>
-      <LayoutItem referencePoint="0" pictureRotation="0" uuid="{36b4aa07-1dd1-40c1-856c-292acc8f2800}" size="12.512,12.512,mm" templateUuid="{36b4aa07-1dd1-40c1-856c-292acc8f2800}" positionLock="false" svgFillColor="255,255,255,255" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" svgBorderWidth="0.2" zValue="9" type="65640" file="C:/Users/Mickael/Desktop/Material_design_map/Icons/menu_white.svg" svgBorderColor="0,0,0,255" background="false" itemRotation="0" positionOnPage="13.3331,13.3651,mm" pictureWidth="12.4357" frame="false" northMode="0" opacity="1" resizeMode="0" blendMode="0" excludeFromExports="0" mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" northOffset="0" position="13.3331,13.3651,mm" anchorPoint="0" id="Menu Icon" pictureHeight="12.512">
+      <LayoutItem visibility="1" groupUuid="" northOffset="0" frameJoinStyle="miter" referencePoint="0" resizeMode="0" position="13.3331,13.3651,mm" positionOnPage="13.3331,13.3651,mm" pictureHeight="12.512" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" pictureRotation="0" id="Menu Icon" frame="false" background="false" itemRotation="0" mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" northMode="0" file="C:/Users/Mickael/Desktop/Material_design_map/Icons/menu_white.svg" anchorPoint="0" size="12.512,12.512,mm" templateUuid="{36b4aa07-1dd1-40c1-856c-292acc8f2800}" blendMode="0" svgBorderWidth="0.2" zValue="9" pictureWidth="12.4357" svgFillColor="255,255,255,255" type="65640" uuid="{36b4aa07-1dd1-40c1-856c-292acc8f2800}" svgBorderColor="0,0,0,255">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option type="Map" name="properties">
                 <Option type="Map" name="dataDefinedMapLabelMargin">
-                  <Option type="bool" value="false" name="active"/>
-                  <Option type="QString" value="" name="expression"/>
-                  <Option type="int" value="3" name="type"/>
+                  <Option type="bool" name="active" value="false"/>
+                  <Option type="QString" name="expression" value=""/>
+                  <Option type="int" name="type" value="3"/>
                 </Option>
               </Option>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem referencePoint="0" pictureRotation="0" uuid="{77ac5fe5-0232-41af-b632-7ec46e76113f}" size="17.9149,17.6306,mm" templateUuid="{77ac5fe5-0232-41af-b632-7ec46e76113f}" positionLock="false" svgFillColor="255,255,255,255" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" svgBorderWidth="0.2" zValue="8" type="65640" file="C:/Users/Mickael/Desktop/Material_design_map/Icons/compass_white.svg" svgBorderColor="0,0,0,255" background="false" itemRotation="0" positionOnPage="255.359,29.0051,mm" pictureWidth="17.5231" frame="false" northMode="0" opacity="1" resizeMode="0" blendMode="0" excludeFromExports="0" mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" northOffset="0" position="255.359,29.0051,mm" anchorPoint="0" id="Compass Icon" pictureHeight="17.6306">
+      <LayoutItem visibility="1" groupUuid="" northOffset="0" frameJoinStyle="miter" referencePoint="0" resizeMode="0" position="255.359,29.0051,mm" positionOnPage="255.359,29.0051,mm" pictureHeight="17.6306" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" pictureRotation="0" id="Compass Icon" frame="false" background="false" itemRotation="0" mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" northMode="0" file="C:/Users/Mickael/Desktop/Material_design_map/Icons/compass_white.svg" anchorPoint="0" size="17.9149,17.6306,mm" templateUuid="{77ac5fe5-0232-41af-b632-7ec46e76113f}" blendMode="0" svgBorderWidth="0.2" zValue="8" pictureWidth="17.5231" svgFillColor="255,255,255,255" type="65640" uuid="{77ac5fe5-0232-41af-b632-7ec46e76113f}" svgBorderColor="0,0,0,255">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option type="Map" name="properties">
                 <Option type="Map" name="dataDefinedMapLabelMargin">
-                  <Option type="bool" value="false" name="active"/>
-                  <Option type="QString" value="" name="expression"/>
-                  <Option type="int" value="3" name="type"/>
+                  <Option type="bool" name="active" value="false"/>
+                  <Option type="QString" name="expression" value=""/>
+                  <Option type="int" name="type" value="3"/>
                 </Option>
               </Option>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem referencePoint="0" uuid="{162c1a85-83bd-48ed-9e5c-84e18ab7c05e}" size="201.045,129.038,mm" cornerRadiusMeasure="0,mm" templateUuid="{162c1a85-83bd-48ed-9e5c-84e18ab7c05e}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" zValue="7" type="65643" background="false" itemRotation="0" positionOnPage="85.9395,37.8204,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" shapeType="1" position="85.9395,37.8204,mm" id="Map Box">
+      <LayoutItem visibility="1" groupUuid="" frameJoinStyle="miter" cornerRadiusMeasure="0,mm" referencePoint="0" position="85.9395,37.8204,mm" positionOnPage="85.9395,37.8204,mm" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="Map Box" frame="false" background="false" shapeType="1" itemRotation="0" size="201.045,129.038,mm" templateUuid="{162c1a85-83bd-48ed-9e5c-84e18ab7c05e}" blendMode="0" zValue="7" type="65643" uuid="{162c1a85-83bd-48ed-9e5c-84e18ab7c05e}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <symbol clip_to_extent="1" alpha="1" force_rhr="0" type="fill" name="">
-          <layer locked="0" class="SimpleFill" enabled="1" pass="0">
-            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="color" v="255,255,255,255"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,0"/>
-            <prop k="outline_style" v="no"/>
-            <prop k="outline_width" v="0.3"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
+        <symbol type="fill" alpha="1" name="" clip_to_extent="1" force_rhr="0">
+          <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0,0,0,0" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.3" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
             <effect type="effectStack" enabled="1">
               <effect type="dropShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.116"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="0.5"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.116" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="0.5" k="opacity"/>
               </effect>
               <effect type="outerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
               <effect type="drawSource">
-                <prop k="blend_mode" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="opacity" v="1"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.645"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="1"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.645" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
             </effect>
             <data_defined_properties>
               <Option type="Map">
-                <Option type="QString" value="" name="name"/>
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
             </data_defined_properties>
           </layer>
         </symbol>
       </LayoutItem>
-      <LayoutItem referencePoint="0" uuid="{ae04ca3d-fac4-436e-882d-9ae118eb85b5}" size="18.768,18.768,mm" cornerRadiusMeasure="0,mm" templateUuid="{ae04ca3d-fac4-436e-882d-9ae118eb85b5}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" zValue="6" type="65643" background="false" itemRotation="0" positionOnPage="254.79,28.8155,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" shapeType="0" position="254.79,28.8155,mm" id="Green Elipse">
+      <LayoutItem visibility="1" groupUuid="" frameJoinStyle="miter" cornerRadiusMeasure="0,mm" referencePoint="0" position="254.79,28.8155,mm" positionOnPage="254.79,28.8155,mm" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="Green Elipse" frame="false" background="false" shapeType="0" itemRotation="0" size="18.768,18.768,mm" templateUuid="{ae04ca3d-fac4-436e-882d-9ae118eb85b5}" blendMode="0" zValue="6" type="65643" uuid="{ae04ca3d-fac4-436e-882d-9ae118eb85b5}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <symbol clip_to_extent="1" alpha="1" force_rhr="0" type="fill" name="">
-          <layer locked="0" class="SimpleFill" enabled="1" pass="0">
-            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="color" v="7,211,157,255"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,0"/>
-            <prop k="outline_style" v="no"/>
-            <prop k="outline_width" v="0.3"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
+        <symbol type="fill" alpha="1" name="" clip_to_extent="1" force_rhr="0">
+          <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="7,211,157,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0,0,0,0" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.3" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
             <effect type="effectStack" enabled="1">
               <effect type="dropShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.645"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="3"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="0.5"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.645" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="3" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="0.5" k="opacity"/>
               </effect>
               <effect type="outerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
               <effect type="drawSource">
-                <prop k="blend_mode" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="opacity" v="1"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.645"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="1"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.645" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
             </effect>
             <data_defined_properties>
               <Option type="Map">
-                <Option type="QString" value="" name="name"/>
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
             </data_defined_properties>
           </layer>
         </symbol>
       </LayoutItem>
-      <LayoutItem halign="2" referencePoint="0" uuid="{f6fa1b09-f3af-41f3-b170-49b175bd088e}" size="192.514,23.0335,mm" templateUuid="{f6fa1b09-f3af-41f3-b170-49b175bd088e}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" marginY="1" zValue="5" type="65641" marginX="1" background="false" itemRotation="0" positionOnPage="90.032,174.954,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" htmlState="0" labelText="Created on : [% month(  now()  )  ||  ' - ' ||  day(  now()  )  || ' - ' ||  year(  now() )%]&#xa;&#xa;&#xa;SOURCES - IGN - BD GEOFLA® 2015-1 &#xa;Designed by Mickael HOARAU" position="90.032,174.954,mm" valign="32" id="">
+      <LayoutItem halign="2" visibility="1" groupUuid="" marginX="1" htmlState="0" valign="32" frameJoinStyle="miter" referencePoint="0" position="90.032,174.954,mm" positionOnPage="90.032,174.954,mm" positionLock="false" labelText="Created on : [% month(  now()  )  ||  ' - ' ||  day(  now()  )  || ' - ' ||  year(  now() )%]&#xa;&#xa;&#xa;SOURCES - IGN - BD GEOFLA® 2015-1 &#xa;Designed by Mickael HOARAU" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="" frame="false" background="false" itemRotation="0" size="192.514,23.0335,mm" templateUuid="{f6fa1b09-f3af-41f3-b170-49b175bd088e}" blendMode="0" marginY="1" zValue="5" type="65641" uuid="{f6fa1b09-f3af-41f3-b170-49b175bd088e}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
@@ -1494,15 +1494,15 @@
         <LabelFont description="Roboto,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor green="97" alpha="255" blue="101" red="92"/>
       </LayoutItem>
-      <LayoutItem halign="1" referencePoint="0" uuid="{f1b89a6a-36b8-4af1-bb24-3e830c021a36}" size="53.7,20.1898,mm" templateUuid="{f1b89a6a-36b8-4af1-bb24-3e830c021a36}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" marginY="1" zValue="4" type="65641" marginX="1" background="false" itemRotation="0" positionOnPage="17.7952,50.6168,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" htmlState="1" labelText="&lt;p style=&quot;font-family : roboto; color : #07d39d; &quot;>DESCRIPTION&lt;/p>&#xa;&lt;p style=&quot;font-family:roboto; font-size: 12px;color : white;&quot;>Distribution of population in Reunion Island from IGN - GEOFLA 2015&lt;/p>" position="17.7952,50.6168,mm" valign="32" id="Html Description">
+      <LayoutItem halign="1" visibility="1" groupUuid="" marginX="1" htmlState="1" valign="32" frameJoinStyle="miter" referencePoint="0" position="17.7952,50.6168,mm" positionOnPage="17.7952,50.6168,mm" positionLock="false" labelText="&lt;p style=&quot;font-family : roboto; color : #07d39d; &quot;>DESCRIPTION&lt;/p>&#xa;&lt;p style=&quot;font-family:roboto; font-size: 12px;color : white;&quot;>Distribution of population in Reunion Island from IGN - GEOFLA 2015&lt;/p>" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="Html Description" frame="false" background="false" itemRotation="0" size="53.7,20.1898,mm" templateUuid="{f1b89a6a-36b8-4af1-bb24-3e830c021a36}" blendMode="0" marginY="1" zValue="4" type="65641" uuid="{f1b89a6a-36b8-4af1-bb24-3e830c021a36}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
@@ -1510,264 +1510,264 @@
         <LabelFont description="sans-serif,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor green="0" alpha="255" blue="0" red="0"/>
       </LayoutItem>
-      <LayoutItem id="Legend" title="Legend" excludeFromExports="0" groupUuid="" wmsLegendHeight="25" background="false" titleAlignment="4" zValue="3" splitLayer="0" blendMode="0" frame="false" uuid="{2302c165-7a29-4d23-8794-de1a57f2887e}" positionLock="false" frameJoinStyle="miter" size="25.5672,13.9,mm" rasterBorderWidth="0" position="25.8452,23.0335,mm" symbolWidth="7" boxSpace="2" equalColumnWidth="0" columnCount="1" positionOnPage="25.8452,23.0335,mm" itemRotation="0" visibility="1" columnSpace="2" legendFilterByAtlas="0" type="65642" symbolAlignment="1" lineSpacing="1" referencePoint="0" wrapChar="" map_uuid="{18a68759-d406-448f-98e8-38f6568293b0}" opacity="1" fontColor="#ffffff" rasterBorder="1" templateUuid="{2302c165-7a29-4d23-8794-de1a57f2887e}" outlineWidthM="0.3,mm" rasterBorderColor="0,0,0,255" symbolHeight="4" resizeToContents="1" wmsLegendWidth="50">
+      <LayoutItem rasterBorder="1" frame="false" uuid="{2302c165-7a29-4d23-8794-de1a57f2887e}" id="Legend" background="false" splitLayer="0" outlineWidthM="0.3,mm" excludeFromExports="0" symbolHeight="4" groupUuid="" position="25.8452,23.0335,mm" templateUuid="{2302c165-7a29-4d23-8794-de1a57f2887e}" resizeToContents="1" boxSpace="2" itemRotation="0" frameJoinStyle="miter" visibility="1" fontColor="#ffffff" opacity="1" wmsLegendWidth="50" columnSpace="2" legendFilterByAtlas="0" blendMode="0" symbolAlignment="1" wmsLegendHeight="25" referencePoint="0" positionLock="false" lineSpacing="1" zValue="3" equalColumnWidth="0" columnCount="1" size="25.5672,13.9,mm" positionOnPage="25.8452,23.0335,mm" map_uuid="{18a68759-d406-448f-98e8-38f6568293b0}" symbolWidth="7" wrapChar="" title="Legend" type="65642" rasterBorderWidth="0" titleAlignment="4" rasterBorderColor="0,0,0,255">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
         <styles>
-          <style marginBottom="2" alignment="1" name="title">
+          <style marginBottom="2" name="title" alignment="1">
             <styleFont description="sans-serif,16,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style alignment="1" name="group" marginTop="2">
+          <style marginTop="2" name="group" alignment="1">
             <styleFont description="sans-serif,14,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style alignment="1" name="subgroup" marginTop="2">
+          <style marginTop="2" name="subgroup" alignment="1">
             <styleFont description="sans-serif,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style alignment="1" name="symbol" marginTop="2">
+          <style marginTop="2" name="symbol" alignment="1">
             <styleFont description="sans-serif,10,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style alignment="1" marginLeft="2" name="symbolLabel" marginTop="2">
+          <style marginTop="2" name="symbolLabel" marginLeft="2" alignment="1">
             <styleFont description="Roboto,11,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
         <layer-tree-group>
           <customproperties/>
-          <layer-tree-layer legend_exp="" checked="Qt::Checked" id="COMMUNE20160906082902534" expanded="1" name="COMMUNE LAYER">
+          <layer-tree-layer id="COMMUNE20160906082902534" checked="Qt::Checked" legend_exp="" name="COMMUNE LAYER" expanded="1">
             <customproperties>
-              <property key="legend/title-style" value="hidden"/>
+              <property value="hidden" key="legend/title-style"/>
             </customproperties>
           </layer-tree-layer>
           <custom-order enabled="0"/>
         </layer-tree-group>
       </LayoutItem>
-      <LayoutItem referencePoint="0" uuid="{2de90425-d3a9-440c-87a3-3f88f0b3fe9a}" size="201.045,30.7113,mm" cornerRadiusMeasure="0,mm" templateUuid="{2de90425-d3a9-440c-87a3-3f88f0b3fe9a}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" zValue="2" type="65643" background="false" itemRotation="0" positionOnPage="85.9395,171.115,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" shapeType="1" position="85.9395,171.115,mm" id="Details Box">
+      <LayoutItem visibility="1" groupUuid="" frameJoinStyle="miter" cornerRadiusMeasure="0,mm" referencePoint="0" position="85.9395,171.115,mm" positionOnPage="85.9395,171.115,mm" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="Details Box" frame="false" background="false" shapeType="1" itemRotation="0" size="201.045,30.7113,mm" templateUuid="{2de90425-d3a9-440c-87a3-3f88f0b3fe9a}" blendMode="0" zValue="2" type="65643" uuid="{2de90425-d3a9-440c-87a3-3f88f0b3fe9a}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <symbol clip_to_extent="1" alpha="1" force_rhr="0" type="fill" name="">
-          <layer locked="0" class="SimpleFill" enabled="1" pass="0">
-            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="color" v="255,255,255,255"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="no"/>
-            <prop k="outline_width" v="0.3"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
+        <symbol type="fill" alpha="1" name="" clip_to_extent="1" force_rhr="0">
+          <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0,0,0,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.3" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
             <effect type="effectStack" enabled="1">
               <effect type="dropShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.116"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="0.5"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.116" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="0.5" k="opacity"/>
               </effect>
               <effect type="outerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
               <effect type="drawSource">
-                <prop k="blend_mode" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="opacity" v="1"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.645"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="1"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.645" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
             </effect>
             <data_defined_properties>
               <Option type="Map">
-                <Option type="QString" value="" name="name"/>
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
             </data_defined_properties>
           </layer>
         </symbol>
       </LayoutItem>
-      <LayoutItem referencePoint="0" uuid="{12dc6311-38d1-45b4-bb04-77d5ed0136a9}" size="72.7972,193.652,mm" cornerRadiusMeasure="0,mm" templateUuid="{12dc6311-38d1-45b4-bb04-77d5ed0136a9}" positionLock="false" visibility="1" outlineWidthM="0.3,mm" frameJoinStyle="miter" groupUuid="" zValue="1" type="65643" background="false" itemRotation="0" positionOnPage="8.24656,8.17404,mm" frame="false" opacity="1" blendMode="0" excludeFromExports="0" shapeType="1" position="8.24656,8.17404,mm" id="Side box">
+      <LayoutItem visibility="1" groupUuid="" frameJoinStyle="miter" cornerRadiusMeasure="0,mm" referencePoint="0" position="8.24656,8.17404,mm" positionOnPage="8.24656,8.17404,mm" positionLock="false" outlineWidthM="0.3,mm" opacity="1" excludeFromExports="0" id="Side box" frame="false" background="false" shapeType="1" itemRotation="0" size="72.7972,193.652,mm" templateUuid="{12dc6311-38d1-45b4-bb04-77d5ed0136a9}" blendMode="0" zValue="1" type="65643" uuid="{12dc6311-38d1-45b4-bb04-77d5ed0136a9}">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <symbol clip_to_extent="1" alpha="1" force_rhr="0" type="fill" name="">
-          <layer locked="0" class="SimpleFill" enabled="1" pass="0">
-            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="color" v="35,35,35,255"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="no"/>
-            <prop k="outline_width" v="0.3"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
+        <symbol type="fill" alpha="1" name="" clip_to_extent="1" force_rhr="0">
+          <layer locked="0" pass="0" enabled="1" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="35,35,35,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0,0,0,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.3" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
             <effect type="effectStack" enabled="1">
               <effect type="dropShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.116"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="0.5"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.116" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="0.5" k="opacity"/>
               </effect>
               <effect type="outerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
               <effect type="drawSource">
-                <prop k="blend_mode" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="1"/>
-                <prop k="opacity" v="1"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="1" k="enabled"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerShadow">
-                <prop k="blend_mode" v="13"/>
-                <prop k="blur_level" v="2.645"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="offset_angle" v="135"/>
-                <prop k="offset_distance" v="2"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="opacity" v="1"/>
+                <prop v="13" k="blend_mode"/>
+                <prop v="2.645" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,0,255" k="color"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="135" k="offset_angle"/>
+                <prop v="2" k="offset_distance"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                <prop v="1" k="opacity"/>
               </effect>
               <effect type="innerGlow">
-                <prop k="blend_mode" v="0"/>
-                <prop k="blur_level" v="0.7935"/>
-                <prop k="blur_unit" v="MM"/>
-                <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                <prop k="color1" v="0,0,255,255"/>
-                <prop k="color2" v="0,255,0,255"/>
-                <prop k="color_type" v="0"/>
-                <prop k="discrete" v="0"/>
-                <prop k="draw_mode" v="2"/>
-                <prop k="enabled" v="0"/>
-                <prop k="opacity" v="0.5"/>
-                <prop k="rampType" v="gradient"/>
-                <prop k="single_color" v="255,255,255,255"/>
-                <prop k="spread" v="2"/>
-                <prop k="spread_unit" v="MM"/>
-                <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop v="0" k="blend_mode"/>
+                <prop v="0.7935" k="blur_level"/>
+                <prop v="MM" k="blur_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                <prop v="0,0,255,255" k="color1"/>
+                <prop v="0,255,0,255" k="color2"/>
+                <prop v="0" k="color_type"/>
+                <prop v="0" k="discrete"/>
+                <prop v="2" k="draw_mode"/>
+                <prop v="0" k="enabled"/>
+                <prop v="0.5" k="opacity"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="255,255,255,255" k="single_color"/>
+                <prop v="2" k="spread"/>
+                <prop v="MM" k="spread_unit"/>
+                <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
               </effect>
             </effect>
             <data_defined_properties>
               <Option type="Map">
-                <Option type="QString" value="" name="name"/>
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
             </data_defined_properties>
           </layer>
         </symbol>
       </LayoutItem>
       <customproperties/>
-      <Atlas filenamePattern="'output_'||@atlas_featurenumber" coverageLayer="" filterFeatures="0" enabled="0" pageNameExpression="" sortFeatures="0" hideCoverage="0"/>
+      <Atlas coverageLayer="" hideCoverage="0" sortFeatures="0" enabled="0" pageNameExpression="" filenamePattern="'output_'||@atlas_featurenumber" filterFeatures="0"/>
     </Layout>
   </Layouts>
   <Bookmarks/>
@@ -1777,14 +1777,14 @@
   <ProjectDisplaySettings>
     <BearingFormat id="bearing">
       <Option type="Map">
-        <Option type="QChar" value="" name="decimal_separator"/>
-        <Option type="int" value="6" name="decimals"/>
-        <Option type="int" value="0" name="direction_format"/>
-        <Option type="int" value="0" name="rounding_type"/>
-        <Option type="bool" value="false" name="show_plus"/>
-        <Option type="bool" value="true" name="show_thousand_separator"/>
-        <Option type="bool" value="false" name="show_trailing_zeros"/>
-        <Option type="QChar" value="" name="thousand_separator"/>
+        <Option type="QChar" name="decimal_separator" value=""/>
+        <Option type="int" name="decimals" value="6"/>
+        <Option type="int" name="direction_format" value="0"/>
+        <Option type="int" name="rounding_type" value="0"/>
+        <Option type="bool" name="show_plus" value="false"/>
+        <Option type="bool" name="show_thousand_separator" value="true"/>
+        <Option type="bool" name="show_trailing_zeros" value="false"/>
+        <Option type="QChar" name="thousand_separator" value=""/>
       </Option>
     </BearingFormat>
   </ProjectDisplaySettings>
