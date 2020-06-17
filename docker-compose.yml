@@ -8,7 +8,7 @@ services:
           - ./data:/etc/data
           - ./qgis_projects:/etc/qgisserver      
       ports:
-          - "8380:80"
+          - "80:80"
       environment:
           - QGIS_PROJECT_FILE=/etc/qgisserver/project.qgs
 
