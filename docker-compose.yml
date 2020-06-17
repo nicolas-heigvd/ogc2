@@ -3,6 +3,7 @@ version: '3.3'
 services:
 
   qgisserver:
+      container_name: "ogc2_qgisserver"
       image: "camptocamp/qgis-server:3.10"
       volumes:
           - ../data:/etc/data
@@ -11,4 +12,3 @@ services:
           - "80:80"
       environment:
           - QGIS_PROJECT_FILE=/etc/qgisserver/project.qgs
-
