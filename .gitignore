@@ -1,4 +1,5 @@
-server/*
+server/
+data/
 *_demo_projects/*
 docker-compose-dev.yml
-*_projects/*.qgs~
+*_projects/*
