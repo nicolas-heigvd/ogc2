@@ -5,7 +5,7 @@ services:
   qgisserver:
       image: "camptocamp/qgis-server:3.10"
       volumes:
-          - ./data:/etc/data
+          - ../data:/etc/data
           - ./qgis_projects:/etc/qgisserver      
       ports:
           - "80:80"
