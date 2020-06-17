@@ -4888,9 +4888,9 @@
     <WFSUrl type="QString"></WFSUrl>
     <WMSAccessConstraints type="QString">copyright</WMSAccessConstraints>
     <WMSAddWktGeometry type="bool">true</WMSAddWktGeometry>
-    <WMSContactMail type="QString">nicolas.blanc1@heig-vd.ch</WMSContactMail>
+    <WMSContactMail type="QString">insit@heig-vd.ch</WMSContactMail>
     <WMSContactOrganization type="QString">HEIG-VD</WMSContactOrganization>
-    <WMSContactPerson type="QString">Nicolas Blanc</WMSContactPerson>
+    <WMSContactPerson type="QString">INSIT</WMSContactPerson>
     <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSCrsList type="QStringList">
@@ -5181,7 +5181,7 @@
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" anchorPoint="0" referencePoint="0" northOffset="0" position="13.3331,13.3651,mm" type="65640" file="/media/nicolas/Data/ogc_server/qgis_projects/Icons/menu_white.svg" resizeMode="0" positionLock="false" outlineWidthM="0.3,mm" excludeFromExports="0" blendMode="0" northMode="0" pictureRotation="0" id="Menu Icon" size="12.512,12.512,mm" zValue="19" groupUuid="" pictureWidth="12.4357" svgFillColor="255,255,255,255" pictureHeight="12.512" svgBorderWidth="0.2" uuid="{d2d8cf6d-ba0a-4177-b303-a407a94f0281}" positionOnPage="13.3331,13.3651,mm" frameJoinStyle="miter" templateUuid="{d2d8cf6d-ba0a-4177-b303-a407a94f0281}" svgBorderColor="0,0,0,255" visibility="1" frame="false" background="false" opacity="1" itemRotation="0">
+      <LayoutItem mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" anchorPoint="0" referencePoint="0" northOffset="0" position="13.3331,13.3651,mm" type="65640" file="./Icons/menu_white.svg" resizeMode="0" positionLock="false" outlineWidthM="0.3,mm" excludeFromExports="0" blendMode="0" northMode="0" pictureRotation="0" id="Menu Icon" size="12.512,12.512,mm" zValue="19" groupUuid="" pictureWidth="12.4357" svgFillColor="255,255,255,255" pictureHeight="12.512" svgBorderWidth="0.2" uuid="{d2d8cf6d-ba0a-4177-b303-a407a94f0281}" positionOnPage="13.3331,13.3651,mm" frameJoinStyle="miter" templateUuid="{d2d8cf6d-ba0a-4177-b303-a407a94f0281}" svgBorderColor="0,0,0,255" visibility="1" frame="false" background="false" opacity="1" itemRotation="0">
         <FrameColor red="0" blue="0" alpha="255" green="0"/>
         <BackgroundColor red="255" blue="255" alpha="255" green="255"/>
         <LayoutObject>
@@ -5201,7 +5201,7 @@
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" anchorPoint="0" referencePoint="0" northOffset="0" position="255.359,29.0051,mm" type="65640" file="/media/nicolas/Data/ogc_server/qgis_projects/Icons/compass_white.svg" resizeMode="0" positionLock="false" outlineWidthM="0.3,mm" excludeFromExports="0" blendMode="0" northMode="0" pictureRotation="0" id="Compass Icon" size="17.9149,17.6306,mm" zValue="18" groupUuid="" pictureWidth="17.5231" svgFillColor="255,255,255,255" pictureHeight="17.6306" svgBorderWidth="0.2" uuid="{1ea283e5-803d-4254-add6-635bf3c56200}" positionOnPage="255.359,29.0051,mm" frameJoinStyle="miter" templateUuid="{1ea283e5-803d-4254-add6-635bf3c56200}" svgBorderColor="0,0,0,255" visibility="1" frame="false" background="false" opacity="1" itemRotation="0">
+      <LayoutItem mapUuid="{18a68759-d406-448f-98e8-38f6568293b0}" anchorPoint="0" referencePoint="0" northOffset="0" position="255.359,29.0051,mm" type="65640" file="./Icons/compass_white.svg" resizeMode="0" positionLock="false" outlineWidthM="0.3,mm" excludeFromExports="0" blendMode="0" northMode="0" pictureRotation="0" id="Compass Icon" size="17.9149,17.6306,mm" zValue="18" groupUuid="" pictureWidth="17.5231" svgFillColor="255,255,255,255" pictureHeight="17.6306" svgBorderWidth="0.2" uuid="{1ea283e5-803d-4254-add6-635bf3c56200}" positionOnPage="255.359,29.0051,mm" frameJoinStyle="miter" templateUuid="{1ea283e5-803d-4254-add6-635bf3c56200}" svgBorderColor="0,0,0,255" visibility="1" frame="false" background="false" opacity="1" itemRotation="0">
         <FrameColor red="0" blue="0" alpha="255" green="0"/>
         <BackgroundColor red="255" blue="255" alpha="255" green="255"/>
         <LayoutObject>
