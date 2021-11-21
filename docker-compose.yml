@@ -1,10 +1,10 @@
-version: '3.3'
+version: '3.8'
 
 services:
 
   qgisserver:
-      container_name: "ogc2_qgisserver"
-      image: "camptocamp/qgis-server:3.10"
+      container_name: "ogc_qgisserver"
+      image: "camptocamp/qgis-server:3.16"
       volumes:
           - ../data:/etc/data
           - ./qgis_projects:/etc/qgisserver      
