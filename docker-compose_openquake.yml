@@ -4,13 +4,14 @@ services:
 
   qgisserver:
       container_name: "ogc_qgisserver"
-      image: "camptocamp/qgis-server:3.16"
+      image: "openquake/qgis-server:3.16.3"
       volumes:
           - ../data:/etc/data
           - ./qgis_projects:/etc/qgisserver      
-          - ${HOME}.pg_service.conf:/etc/qgisserver/pg_service.conf:ro
+          - ${HOME}/.pg_service.conf:/etc/postgresql-common/pg_service.conf:ro
       ports:
           - "80:80"
       environment:
           - QGIS_PROJECT_FILE=/etc/qgisserver/project.qgs
+          - SKIP_NGINX=false
       restart: always
