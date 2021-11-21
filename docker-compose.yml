@@ -4,7 +4,7 @@ services:
 
   qgisserver:
       container_name: "ogc_qgisserver"
-      image: "camptocamp/qgis-server:3.16"
+      image: "camptocamp/qgis-server:3.20"
       volumes:
           - ../data:/etc/data
           - ./qgis_projects:/etc/qgisserver      
