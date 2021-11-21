@@ -13,4 +13,5 @@ services:
           - "80:80"
       environment:
           - QGIS_PROJECT_FILE=/etc/qgisserver/project.qgs
+          - PGSERVICEFILE=/etc/qgisserver/pg_service.conf
       restart: always
